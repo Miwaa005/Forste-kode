@@ -1,0 +1,23 @@
+Table, th, td { 
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    
+} 
+
+td{
+    width: 1%;
+}
+
+th{
+    background-color: rgb(150, 176, 248);
+}
+ /*tr {
+   padding-left: 5%;
+}*/
+Table {
+    position: absolute;
+    margin-top: 7%;
+    table-layout: fixed; /* Fordeler plass jevnt mellom kolonnene */
+    width: 100%; /* Angi bredden for å sikre at kolonner fyller ut tabellens bredde */
+}
