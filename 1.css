@@ -4,9 +4,18 @@ body{
 main{
     margin: 20px;
 }
-h1 {
-    text-align: center;
+header{
+    background-color: rgb(100, 100, 100);
 }
+/* slett denne etter du har puttet bilde i loggen
+h1 {
+    padding-left: 15px;
+    text-align: start;
+    background-color: rgb(112, 162, 177);
+    margin:0%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}*/
 .navbar ul{
     list-style-type: none;
     background-color: grey;
